@@ -1,0 +1,9 @@
+{
+  "produto": [
+    { "ID" : 1, "Nome" : "Pneu", "Marca" : "Pirelli", "Aro" : "16", "Modelo" : "SCORPION VERDE ALL SEASON", "Medida" : "235/60R16", "Largura" : "235mm" },
+    { "ID" : 2, "Nome" : "Pneu", "Marca" : "Farrod", "Aro" : "16", "Modelo" : "FRD66", "Medida" : "225/70R16", "Largura" : "225mm"  },
+    { "ID" : 3, "Nome" : "Pneu", "Marca" : "GOODYEAR", "Aro" : "16", "Modelo" : "WRANGLER FORTITUDE HT", "Medida" : "235/60R16", "Largura" : "235mm" },
+    { "ID" : 4, "Nome" : "Pneu", "Marca" : "HANKOOK", "Aro" : "18", "Modelo" : "VENTUS S1 EVO 2 K117A", "Medida" : "255/55R18", "Largura" : "255mm" },
+    { "ID" : 5, "Nome" : "Pneu", "Marca" : "GOODYEAR", "Aro" : "16", "Modelo" : "EAGLE TOURING", "Medida" : "205/45R18", "Largura" : "205mm" }
+  ]
+}
