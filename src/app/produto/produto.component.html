@@ -5,6 +5,7 @@
     <thead>
       <tr>
         <th scope="col">#</th>
+        <th scope="col">Img</th>
         <th scope="col">Nome</th>
         <th scope="col">Marca</th>
         <th scope="col">Aro</th>
@@ -16,6 +17,7 @@
     <tbody>
       <tr *ngFor="let Produto of produto" >
         <th scope="row">{{Produto.ID}}</th>
+        <td ><img src="{{Produto.Img}}" alt="" width="80px" height="80px">  </td>
         <td>{{Produto.Nome}}</td>
         <td>{{Produto.Marca}}</td>
         <td>{{Produto.Aro}}</td>
@@ -28,36 +30,10 @@
 </ng-template>
   </li>
   <li ngbNavItem>
-    <button ngbNavLink>Aerofolio</button>
-    <ng-template ngbNavContent><ng-template ngbNavContent><table class="table table-dark table-striped">
-    <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">Nome</th>
-        <th scope="col">Marca</th>
-        <th scope="col">Aro</th>
-        <th scope="col">Modelo</th>
-        <th scope="col">Medida</th>
-        <th scope="col">Largura</th>
-      </tr>
-    </thead>
-   <!-- <tbody>
-      <tr *ngFor="let Aerofolio of Aerofolio" >
-        <th scope="row">{{Aerofolio.ID}}</th>
-        <td>{{Aerofolio.Nome}}</td>
-        <td>{{Aerofolio.Marca}}</td>
-        <td>{{Aerofolio.Tamanho}}</td>
-        <td>{{Aerofolio.Modelo}}</td>
-        <td>{{Aerofolio.Altura}}</td>
-        <td>{{Aerofolio.Largura}}</td>
-      </tr>
-    </tbody>-->
-  </table>
-</ng-template></ng-template>
+
   </li>
 </ul>
 <div [ngbNavOutlet]="nav"></div>
 
 
 
-  

@@ -5,8 +5,11 @@ export interface Produto {
     Aro : number,
     Modelo : string
     Medida : string,
-    Largura : string
-    Altura : string,
-    Tamanho : string,
-     
+    Largura : string,
+    Img : string
+
+    aerofolio: [
+      Altura : string,
+      Tamanho : string
+    ]
 }
