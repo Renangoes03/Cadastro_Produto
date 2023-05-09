@@ -92,6 +92,12 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/Cadastro_Produto/"
+          }
         }
       }
     }
@@ -100,3 +106,4 @@
     "analytics": "b830a4c4-191f-4340-9f6b-a32451fe107b"
   }
 }
+
